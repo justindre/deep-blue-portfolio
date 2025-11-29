@@ -15,7 +15,7 @@ const Footer = () => {
         >
           <div className="mb-4">
             <h3 className="text-2xl font-heading font-bold text-gradient inline-block">
-              Alex Chen
+              Onyeka Justin
             </h3>
             <p className="text-muted-foreground mt-2">Product Designer</p>
           </div>
@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="w-16 h-0.5 gradient-accent mx-auto mb-6 rounded-full" />
 
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Alex Chen. Crafted with passion and attention to detail.
+            © {new Date().getFullYear()} Onyeka Justin. Crafted with passion and attention to detail.
           </p>
 
           <p className="text-xs text-muted-foreground mt-2">
