@@ -36,20 +36,18 @@ const Skills = () => {
 
   const tools = [
     { name: "Figma", icon: Figma },
-    { name: "Adobe XD", icon: Layout },
-    { name: "Illustrator", icon: Palette },
-    { name: "Notion", icon: Code },
     { name: "Miro", icon: Users },
-    { name: "Framer", icon: Zap }
+    { name: "Framer", icon: Zap },
+    { name: "Notion", icon: Code }
   ];
 
-  const additionalSkills = [
-    "Interaction Design",
-    "Motion Design",
-    "Frontend Basics (HTML/CSS)",
-    "Design Thinking",
-    "Agile Methodology",
-    "Accessibility (WCAG)"
+  const softSkills = [
+    "Creative Problem Solving",
+    "Effective Communication",
+    "Team Collaboration",
+    "Attention to Detail",
+    "Time Management",
+    "Adaptability"
   ];
 
   return (
@@ -134,7 +132,7 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* Additional Skills */}
+        {/* Soft Skills */}
         <div className="max-w-6xl mx-auto">
           <motion.h3
             initial={{ opacity: 0, x: -30 }}
@@ -142,10 +140,10 @@ const Skills = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="text-2xl font-heading font-semibold mb-8 text-center"
           >
-            Additional Skills
+            Soft Skills
           </motion.h3>
           <div className="flex flex-wrap justify-center gap-3">
-            {additionalSkills.map((skill, index) => (
+            {softSkills.map((skill, index) => (
               <motion.div
                 key={skill}
                 initial={{ opacity: 0, y: 20 }}

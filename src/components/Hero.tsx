@@ -41,7 +41,7 @@ const Hero = () => {
               transition={{ delay: 0.3 }}
               className="text-5xl lg:text-7xl font-heading font-bold mb-4"
             >
-              Hi, I'm <span className="text-gradient">Alex Chen</span>
+              Hi, I'm <span className="text-gradient">Onyeka Justin</span>
             </motion.h1>
 
             <motion.h2
@@ -103,7 +103,7 @@ const Hero = () => {
                 <div className="w-72 h-72 lg:w-96 lg:h-96 rounded-full overflow-hidden glass-card glow-effect p-2">
                   <img
                     src={designerPortrait}
-                    alt="Alex Chen - Product Designer"
+                    alt="Onyeka Justin - Product Designer"
                     className="w-full h-full object-cover rounded-full"
                   />
                 </div>

@@ -13,24 +13,31 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "HealthTrack Mobile App",
-      description: "A comprehensive health tracking app with intuitive UI, helping users monitor their wellness journey with personalized insights and beautiful data visualization.",
+      title: "Virofund",
+      description: "A cofounder matchmaking platform connecting entrepreneurs with complementary skills and shared visions. Features smart matching algorithms and collaborative workspace tools.",
       image: project1,
-      tags: ["Mobile App", "Health & Wellness", "UI/UX"],
+      tags: ["Web App", "Matchmaking", "UI/UX"],
       link: "#"
     },
     {
-      title: "EcoShop E-Commerce",
-      description: "Modern e-commerce platform for sustainable products. Features include smart product filtering, seamless checkout, and an engaging shopping experience.",
+      title: "Brixsports",
+      description: "Campus livescore platform delivering real-time sports updates, match schedules, and team standings for university sports leagues with engaging social features.",
       image: project2,
-      tags: ["E-Commerce", "Web Design", "Design System"],
+      tags: ["Mobile App", "Sports", "Real-time"],
       link: "#"
     },
     {
-      title: "DataViz Dashboard",
-      description: "Enterprise analytics dashboard with complex data visualization, real-time updates, and customizable views for business intelligence.",
+      title: "Learnify",
+      description: "Tutor marketplace app connecting students with qualified tutors. Features include scheduling, video sessions, progress tracking, and personalized learning paths.",
       image: project3,
-      tags: ["Dashboard", "Data Viz", "SaaS"],
+      tags: ["EdTech", "Mobile App", "Marketplace"],
+      link: "#"
+    },
+    {
+      title: "Dreamsville",
+      description: "Modern real estate platform for property discovery and management. Features immersive property tours, smart search filters, and seamless booking experience.",
+      image: project1,
+      tags: ["Real Estate", "Web Design", "Property Tech"],
       link: "#"
     }
   ];
